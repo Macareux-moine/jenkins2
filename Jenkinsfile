@@ -24,7 +24,7 @@ pipeline {
         stage('Exécution du script Python') {
             steps {
                 script {
-                    sh 'python3 os_dectetor.py'
+                    sh 'python3 os_detector.py'
                 }
             }
         }
