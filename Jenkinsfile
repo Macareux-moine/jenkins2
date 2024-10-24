@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonage du dépôt GitHub') {
             steps {
-                git branch: 'main', url: 'https://github.com/csurqunix/OSDetector.git'
+                git branch: 'main', url: 'https://github.com/Macareux-moine/jenkins2/blob/main/os_detector.py'
             }
         }
         
